@@ -1,0 +1,16 @@
+{
+  "logos": [
+    "/assets/techLogos/reactLogo.png",
+    "/assets/techLogos/nextLogo.png",
+    "/assets/techLogos/materialLogo.png",
+    "/assets/techLogos/tailwindLogo.png",
+    "/assets/techLogos/mongoLogo.png",
+    "/assets/techLogos/postgreLogo.png",
+    "/assets/techLogos/dockerLogo.png",
+    "/assets/techLogos/nodeLogo.png",
+    "/assets/techLogos/typescriptLogo.png",
+    "/assets/techLogos/shopifyLogo.png",
+    "/assets/techLogos/telegrafLogo.png"
+  ],
+  "technologiesText": "IT administrators considering an IoT deployment must have a thorough understanding of what the IoT is, how it operates, its uses, requirements, and tradeoffs. In this e-guide, learn the requirements and use best practices for a successful deployment."
+}

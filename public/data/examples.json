@@ -1,0 +1,31 @@
+[
+  {
+    "preview": "/assets/examples/example.png",
+    "text": "Software is a set of instructions, data or programs used to operate computers and execute specific tasks. It is the opposite of hardware, which describes the physical aspects of a computer. Software is a generic term used to refer to applications, scripts and programs that run on a device. It can be thought of as the variable part of a computer, while hardware is the invariable part.",
+    "title": "IT services",
+    "tags": ["Grow", "Build", "Connect"],
+    "images": ["/assets/examples/example.png", "/assets/examples/example1.png"]
+  },
+  {
+    "preview": "/assets/examples/example1.png",
+    "text": "Software is a set of instructions, data or programs used to operate computers and execute specific tasks. It is the opposite of hardware, which describes the physical aspects of a computer. Software is a generic term used to refer to applications, scripts and programs that run on a device. It can be thought of as the variable part of a computer, while hardware is the invariable part.",
+    "title": "Cyber security",
+    "tags": ["Protect", "Prevent", "Defend"],
+    "images": ["/assets/examples/example1.png"]
+  },
+  {
+    "preview": "/assets/examples/example2.png",
+    "text": "Software is a set of instructions, data or programs used to operate computers and execute specific tasks. It is the opposite of hardware, which describes the physical aspects of a computer. Software is a generic term used to refer to applications, scripts and programs that run on a device. It can be thought of as the variable part of a computer, while hardware is the invariable part.",
+    "title": "Cloud services",
+    "tags": ["AWS", "Azure", "Google cloud"],
+    "images": ["/assets/examples/example2.png"]
+  },
+  {
+    "preview": "/assets/examples/example3.png",
+
+    "text": "IT administrators considering an IoT deployment must have a thorough understanding of what the IoT is, how it operates, its uses, requirements, and tradeoffs. In this e-guide, learn the requirements and use best practices for a successful deployment.",
+    "title": "CND",
+    "tags": ["Network", "Resource", "Data privacy"],
+    "images": ["/assets/examples/example2.png"]
+  }
+]
