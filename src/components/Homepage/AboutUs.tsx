@@ -1,6 +1,5 @@
 import aboutUs from '@/data/aboutUs.json';
 import { gsap } from 'gsap';
-import Image from 'next/image';
 import React, { useEffect, useRef } from 'react';
 import './styles/text.css';
 
@@ -10,12 +9,11 @@ interface AboutUsProps {
 
 interface CardProps {
   imageOnLeft?: boolean;
-  image: string;
   text: string;
 }
 
 const Card = (props: CardProps) => {
-  const { image, imageOnLeft = true, text } = props;
+  const { text } = props;
   return (
     <div className='relative flex min-h-full min-w-full flex-row items-center justify-between py-5 md:mx-10'>
       <div className='text-justify text-gray-300'>{text}</div>
@@ -60,7 +58,7 @@ export default function HomepageAboutUs(props: AboutUsProps) {
       <div className='flex h-full w-full flex-col items-center justify-center gap-5 self-center rounded-3xl bg-primary/20 p-5 md:w-1/2 md:gap-10 md:p-10'>
         {aboutUs.map((card, index) => (
           <React.Fragment key={index}>
-            <Card text={card.text} image={card.image} imageOnLeft={index % 2 === 0} />
+            <Card text={card.text} imageOnLeft={index % 2 === 0} />
             {index + 1 < aboutUs.length && (
               <div className='w-full border-b-4 border-primary md:w-3/4'></div>
             )}

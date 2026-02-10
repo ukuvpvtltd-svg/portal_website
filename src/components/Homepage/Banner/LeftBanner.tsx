@@ -1,5 +1,3 @@
-import OrderNowButton from '@/components/buttons/OrderNowButton';
-
 export default function LeftBanner({ className }: { className?: string }) {
   return (
     <div
